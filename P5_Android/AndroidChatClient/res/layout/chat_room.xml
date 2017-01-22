@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" android:weightSum="1">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.5" android:id="@+id/whiteBoardScrollView">
+        <client.WhiteBoard android:layout_width="match_parent" android:id="@+id/whiteBoard" android:layout_height="match_parent" />
+    </ScrollView>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.5" android:scrollbars="vertical" android:id="@+id/consoleScrollView">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/consoleTextView"></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/inputEditText" android:layout_weight="0.03"></EditText>
+</LinearLayout>
