@@ -1,0 +1,121 @@
+u4 magic;	cafebabe
+u2 major_version;	0000
+u2 minor_version;	002e
+u2 constant_pool_count;	0037(55)
+
+
+contant_pool:
+01: 10: MethodRef(class: 15, 28)
+02:  9: FieldRef(class: 11, 29)
+03:  9: FieldRef(class: 30, 31)
+04:  7: Class(32)
+05: 10: MethodRef(class: 4, 28)
+06:  8: String(33)
+07: 10: MethodRef(class: 4, 34)
+08: 10: MethodRef(class: 4, 35)
+09: 10: MethodRef(class: 4, 36)
+10: 10: MethodRef(class: 37, 38)
+11:  7: Class(39)
+12: 10: MethodRef(class: 11, 40)
+13: 10: MethodRef(class: 11, 41)
+14:  8: String(42)
+15:  7: Class(43)
+16:  1: UTF8(4, "data")
+17:  1: UTF8(1, "I")
+18:  1: UTF8(6, "<init>")
+19:  1: UTF8(4, "(I)V")
+20:  1: UTF8(4, "Code")
+21:  1: UTF8(15, "LineNumberTable")
+22:  1: UTF8(9, "testPrint")
+23:  1: UTF8(3, "()V")
+24:  1: UTF8(4, "main")
+25:  1: UTF8(22, "([Ljava/lang/String;)V")
+26:  1: UTF8(10, "SourceFile")
+27:  1: UTF8(17, "MyHelloWorld.java")
+28: 12: NameAndType(18, 23)
+29: 12: NameAndType(16, 17)
+30:  7: Class(44)
+31: 12: NameAndType(45, 46)
+32:  1: UTF8(22, "java/lang/StringBuffer")
+33:  1: UTF8(5, "Test ")
+34: 12: NameAndType(47, 48)
+35: 12: NameAndType(47, 49)
+36: 12: NameAndType(50, 51)
+37:  7: Class(52)
+38: 12: NameAndType(53, 54)
+39:  1: UTF8(12, "MyHelloWorld")
+40: 12: NameAndType(18, 19)
+41: 12: NameAndType(22, 23)
+42:  1: UTF8(12, "Hello World!")
+43:  1: UTF8(16, "java/lang/Object")
+44:  1: UTF8(16, "java/lang/System")
+45:  1: UTF8(3, "out")
+46:  1: UTF8(21, "Ljava/io/PrintStream;")
+47:  1: UTF8(6, "append")
+48:  1: UTF8(44, "(Ljava/lang/String;)Ljava/lang/StringBuffer;")
+49:  1: UTF8(27, "(I)Ljava/lang/StringBuffer;")
+50:  1: UTF8(8, "toString")
+51:  1: UTF8(20, "()Ljava/lang/String;")
+52:  1: UTF8(19, "java/io/PrintStream")
+53:  1: UTF8(7, "println")
+54:  1: UTF8(21, "(Ljava/lang/String;)V")
+
+u2 access_flags;	0020
+u2 this_class;	000b
+u2 super_class;	000f
+u2 interfaces_count;	0000(0)
+interfaces[interfaces_count]
+u2 fields_count;	0001(1)
+field_info fields[fields_count];
+	Field_info{
+		u2 access_flags;	0000
+		u2 name_index;	0010
+		u2 descriptor_index;	0011
+		u2 attributes_count;	0000(0)
+		attribute_info attributes[attributes_count];
+	}
+
+u2 methods_count;	0003(3)
+
+Method[1]
+
+u2 access_flags;	0000
+u2 name_index;	0012
+u2 descriptor_index;	0013
+u2 attributes_count;	0001(1)
+attribute_info attributes[attributes_count];
+	u2 attribute_name_index;	0014
+	u4 attribute_length;	0000002a(42)
+	u1 info[attribute_length];
+		000200020000000a2ab700012a1bb50002b10000000100150000000e0003000000070004000800090009
+
+Method[2]
+
+u2 access_flags;	0000
+u2 name_index;	0016
+u2 descriptor_index;	0017
+u2 attributes_count;	0001(1)
+attribute_info attributes[attributes_count];
+	u2 attribute_name_index;	0014
+	u4 attribute_length;	00000039(57)
+	u1 info[attribute_length];
+		000300010000001db20003bb000459b700051206b600072ab40002b60008b60009b6000ab10000000100150000000a00020000000b001c000c
+
+Method[3]
+
+u2 access_flags;	0009
+u2 name_index;	0018
+u2 descriptor_index;	0019
+u2 attributes_count;	0001(1)
+attribute_info attributes[attributes_count];
+	u2 attribute_name_index;	0014
+	u4 attribute_length;	0000003b(59)
+	u1 info[attribute_length];
+		0003000200000017bb000b59100ab7000c4c2bb6000db20003120eb6000ab10000000100150000001200040000000e000a000f000e001000160011
+
+Attributes count;	0001(1)
+	SourceFile_attribute {
+		u2 attribute_name_index;	001a
+		u4 attribute_length;	00000002(2)
+		u2 sourcefile_index;	001b
+	}

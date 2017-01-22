@@ -1,0 +1,85 @@
+u4 magic;                           cafebabe
+u2 minor_version;                   0000
+u2 major_version;                   002e
+u2 constant_pool_count;             001d (29)
+
+
+constant_pool: 
+01: 10: Methodref(class: 6, 15)
+02:  9: Field(class: 16, 17)
+03:  8: String(18)
+04: 10: Methodref(class: 19, 20)
+05:  7: Class(21)
+06:  7: Class(22)
+07:  1: UTF8(6,"<init>")
+08:  1: UTF8(3,"()V")
+09:  1: UTF8(4,"Code");
+10:  1: UTF8(15,"LineNumberTable");
+11:  1: UTF8(4,"main")
+12:  1: UTF8(22,"([Ljava/lang/String;)V")
+13:  1: UTF8(10,"SourceFile")
+14:  1: UTF8(18,"HelloWorldApp.java")
+15: 12: NameAndType(7,8)
+16:  7: Class(23)
+17: 12: NameAndType(24,25)
+18:  1: UTF8(12,"Hello World!")
+19:  7: Class(26)
+20: 12: NameAndType(27,28)
+21:  1: UTF8(13,"HelloWorldApp")
+22:  1: UTF8(16,"java/lang/Object")
+23:  1: UTF8(16,"java/lang/System")
+24:  1: UTF8(3,"out")
+25:  1: UTF8(21,"Ljava/io/PrintStream;")
+26:  1: UTF8(19,"java/io/PrintStream")
+27:  1: UTF8(7,"println")
+28:  1: UTF8(21,"(Ljava/lang/String;)V")
+
+u2 access_flags;                        0020
+u2 this_class;                          0005
+u2 super_class;                         0006
+u2 interfaces_count;                    0000
+u2 interfaces[interfaces_count];
+u2 fields_count;                        0000
+field_info fields[fields_count];
+
+u2 methods_count;                       0002
+
+Method[1]: 
+
+u2 access_flags;                        0000
+u2 name_index;                          0007
+u2 descriptor_index;                    0008
+u2 attributes_count;                    0001
+attribute_info attributes[attributes_count];
+
+    u2 attribute_name_index;            0009
+    u4 attribute_length;                0000 001d (29)
+    u1 info[attribute_length];
+            0001 00010000 00052ab7 0001b100 00000100 0a000000 06000100 000005 
+
+Method[2]: 
+
+u2 access_flags;                        0009
+u2 name_index;                          000b
+u2 descriptor_index;                    000c
+u2 attributes_count;                    0001
+attribute_info attributes[attributes_count];
+
+    u2 attribute_name_index;            0009
+    u4 attribute_length;                0000 0025 (37)
+    u1 info[attribute_length];
+            000200 01000000 09b20002 1203b600 04b10000 0001000a 0000000a 00020000 00070008 0008
+
+Attributes count:                       0001
+Attributes:
+               
+    SourceFile_attribute {
+        u2 attribute_name_index;	000d
+        u4 attribute_length;		0000 0002
+        u2 sourcefile_index;		000e
+    }
+
+
+
+
+
