@@ -15,6 +15,8 @@ public class RMIChatServer
 	RMIChatServer( String[] args ) throws RemoteException
 	{
 		System.setProperty("java.security.policy" ,"permission.policy");
+		//or -Djava.rmi.server.codebase=file:///D:/Work%20Directory/Advanced_Java/P4_RMI/RMIChatServer/bin/
+		//Keep in mind, ex: Pi.class must be in task/ or ClassNotFoundException will be thrown
         System.setProperty("java.rmi.server.codebase", this.getClass().getProtectionDomain().getCodeSource().getLocation().toString() );
         
         if( System.getSecurityManager() == null ){
